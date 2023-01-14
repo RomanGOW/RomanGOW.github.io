@@ -1,6 +1,6 @@
 
 const apiUrl = 'https://api.openai.com/v1/engines/davinci-codex/completions';
-const apiKey = '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';
+const apiKey = '12345';
 
 async function sendMessage() {
   const message = document.getElementById('message-input').value;
